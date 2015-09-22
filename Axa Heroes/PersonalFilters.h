@@ -34,7 +34,7 @@
 - (IBAction)weightFilter:(id)sender;
 @property (weak, nonatomic) IBOutlet UIView *viewWeight;
 
--(void)keyboardWillShow:(UITextField *)sender;
+
 
 
 

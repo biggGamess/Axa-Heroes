@@ -657,6 +657,38 @@
             endingLineNumber = "83"
             landmarkName = "-toRestGnome:"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Gnome(RestGnome) toRestGnome:]"
+                  moduleName = "Axa Heroes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcgallardo/Desktop/Axa%20Heroes/Model/Gnome+RestGnome.m"
+                  timestampString = "464612418.436724"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1732">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Gnome(RestGnome) toRestGnome:]"
+                  moduleName = "Axa Heroes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcgallardo/Desktop/Axa%20Heroes/Model/Gnome+RestGnome.m"
+                  timestampString = "464612418.436906"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1828">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -682,12 +714,12 @@
                   moduleName = "Axa Heroes"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/marcgallardo/Desktop/Axa%20Heroes/Model/Gnome+RestGnome.m"
-                  timestampString = "464610161.654461"
+                  timestampString = "464612418.480476"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "76"
                   endingLineNumber = "76"
-                  offsetFromSymbolStart = "1225">
+                  offsetFromSymbolStart = "1172">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -697,12 +729,12 @@
                   moduleName = "Axa Heroes"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/marcgallardo/Desktop/Axa%20Heroes/Model/Gnome+RestGnome.m"
-                  timestampString = "464610161.654797"
+                  timestampString = "464612418.480822"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "76"
                   endingLineNumber = "76"
-                  offsetFromSymbolStart = "1349">
+                  offsetFromSymbolStart = "1268">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -938,7 +970,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Axa Heroes/PersonalFilters.m"
-            timestampString = "464610521.884897"
+            timestampString = "464612216.499122"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -960,54 +992,6 @@
             startingLineNumber = "95"
             endingLineNumber = "95"
             landmarkName = "-filterProfession:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Axa Heroes/PersonalFilters.m"
-            timestampString = "464611300.746449"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "237"
-            endingLineNumber = "237"
-            landmarkName = "-textFieldDidBeginEditing:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Axa Heroes/PersonalFilters.m"
-            timestampString = "464611300.746449"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
-            landmarkName = "-textFieldDidBeginEditing:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Axa Heroes/PersonalFilters.m"
-            timestampString = "464610521.884897"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "216"
-            endingLineNumber = "216"
-            landmarkName = "-keyboardWillShow"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -234,13 +234,13 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)sender
 {
-
+    if ([sender isEqual:self.height1TextField]||[sender isEqual:self.height2TextField]||[sender isEqual:self.weight1TextField]||[sender isEqual:self.weight2TextField]){
         //move the main view, so that the keyboard does not hide it.
         if  (self.view.frame.origin.y >= 0)
         {
             [self setViewMovedUp:YES];
         }
-    
+    }
     
 }
 
@@ -271,7 +271,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    // register for keyboard notifications
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(keyboardWillShow)
                                                  name:UIKeyboardWillShowNotification
@@ -286,7 +285,7 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    // unregister for keyboard notifications while not visible.
+
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:UIKeyboardWillShowNotification
                                                   object:nil];
