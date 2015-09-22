@@ -206,27 +206,27 @@
     
 }
 
-#define kOFFSET_FOR_KEYBOARD 80
+#define kOFFSET_FOR_KEYBOARD 50
 
 -(void)keyboardWillShow {
     // Animate the current view out of the way
     
-    if (self.view.frame.origin.y >= 0)
+    if (self.view.frame.origin.y >= 30)
     {
         [self setViewMovedUp:YES];
     }
-    else if (self.view.frame.origin.y < 0)
+    else if (self.view.frame.origin.y < 30)
     {
         [self setViewMovedUp:NO];
     }
 }
 
 -(void)keyboardWillHide {
-    if (self.view.frame.origin.y >= 0)
+    if (self.view.frame.origin.y >= 30)
     {
         [self setViewMovedUp:YES];
     }
-    else if (self.view.frame.origin.y < 0)
+    else if (self.view.frame.origin.y < 30)
     {
         [self setViewMovedUp:NO];
     }
@@ -234,7 +234,7 @@
 
 -(void)textFieldDidBeginEditing:(UITextField *)sender
 {
-    if ([sender isEqual:self.height1TextField]||[sender isEqual:self.height2TextField]||[sender isEqual:self.weight1TextField]||[sender isEqual:self.weight2TextField]){
+    if (([sender isEqual:self.height1TextField])||([sender isEqual:self.height2TextField])||([sender isEqual:self.weight1TextField])||([sender isEqual:self.weight2TextField])){
         //move the main view, so that the keyboard does not hide it.
         if  (self.view.frame.origin.y >= 0)
         {
