@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="nameFriend" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gnome" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Gnome" inverseName="friend" inverseEntity="Gnome" syncable="YES"/>
+    </entity>
+    <entity name="Gnome" representedClassName="Gnome" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="gnomeid" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="haircolor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="friend" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Friend" inverseName="gnome" inverseEntity="Friend" syncable="YES"/>
+        <relationship name="profession" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Profession" inverseName="gnome" inverseEntity="Profession" syncable="YES"/>
+    </entity>
+    <entity name="Profession" representedClassName="Profession" syncable="YES">
+        <attribute name="nameProfession" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gnome" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Gnome" inverseName="profession" inverseEntity="Gnome" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Friend" positionX="-198" positionY="189" width="128" height="75"/>
+        <element name="Gnome" positionX="-54" positionY="-9" width="128" height="180"/>
+        <element name="Profession" positionX="-126" positionY="117" width="128" height="75"/>
+    </elements>
+</model>

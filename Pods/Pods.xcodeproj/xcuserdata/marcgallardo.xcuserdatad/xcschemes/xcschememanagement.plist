@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Axa Heroes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Axa HeroesTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>06261C023609DD9FFD56A4D83CD75E1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11AD1DF876DDA1EFBA93A7E960179040</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B967B7B0A35A9BE637A0B116DF419BB4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE681CACB5B235B49ACEDCF583DE40E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB64E4C1A697983CE17D1B2DA2D66AEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
