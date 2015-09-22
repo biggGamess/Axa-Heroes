@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AppStyles.h"
 @interface Home : UITableViewController
-
+@property (nonatomic, retain) UIRefreshControl *refresh;
+- (void)getLatestLoans;
 @end

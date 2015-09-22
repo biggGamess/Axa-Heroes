@@ -26,6 +26,10 @@
 		9A4B96481BA834DE00EB32FC /* RestGnome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B963F1BA834DE00EB32FC /* RestGnome.m */; };
 		9A4B96491BA834DE00EB32FC /* RestProfession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B96411BA834DE00EB32FC /* RestProfession.m */; };
 		9A4B96541BA835E000EB32FC /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B96531BA835E000EB32FC /* Home.m */; };
+		9A60A9191BB172AC0029721C /* GnomesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60A9181BB172AC0029721C /* GnomesCell.m */; };
+		9A60A91C1BB172EA0029721C /* ResultsFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60A91B1BB172EA0029721C /* ResultsFilters.m */; };
+		9A60A91F1BB172FA0029721C /* OtherFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60A91E1BB172FA0029721C /* OtherFilters.m */; };
+		9A60A9221BB1730D0029721C /* PersonalFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60A9211BB1730D0029721C /* PersonalFilters.m */; };
 		9A79D9EA1BB01DEA00565240 /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A79D9E11BB01DEA00565240 /* exit.png */; };
 		9A79D9EB1BB01DEA00565240 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A79D9E21BB01DEA00565240 /* filter.png */; };
 		9A79D9EC1BB01DEA00565240 /* fullfilter.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A79D9E31BB01DEA00565240 /* fullfilter.png */; };
@@ -40,7 +44,6 @@
 		9A79D9FA1BB01E5B00565240 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A79D9F91BB01E5B00565240 /* MBProgressHUD.m */; };
 		9ADC0C561BB040F00098AF7F /* ARSPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC0C551BB040F00098AF7F /* ARSPopover.m */; };
 		9AF8A3441BA8AE9E00F44F5F /* GnomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8A3431BA8AE9E00F44F5F /* GnomeManager.m */; };
-		9AF8A3471BA8B4B100F44F5F /* GnomesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8A3461BA8B4B100F44F5F /* GnomesCell.m */; };
 		9AFFAD5B1BA948A600EE1163 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD3B1BA948A600EE1163 /* MKAnnotationView+WebCache.m */; };
 		9AFFAD5C1BA948A600EE1163 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD3D1BA948A600EE1163 /* NSData+ImageContentType.m */; };
 		9AFFAD5D1BA948A600EE1163 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD3F1BA948A600EE1163 /* SDImageCache.m */; };
@@ -57,9 +60,6 @@
 		9AFFAD681BA948A600EE1163 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD561BA948A600EE1163 /* UIImageView+HighlightedWebCache.m */; };
 		9AFFAD691BA948A600EE1163 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD581BA948A600EE1163 /* UIImageView+WebCache.m */; };
 		9AFFAD6A1BA948A600EE1163 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD5A1BA948A600EE1163 /* UIView+WebCacheOperation.m */; };
-		9AFFAD791BA9749600EE1163 /* PersonalFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD781BA9749600EE1163 /* PersonalFilters.m */; };
-		9AFFAD7D1BA9953600EE1163 /* OtherFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD7C1BA9953600EE1163 /* OtherFilters.m */; };
-		9AFFAD841BA9B49700EE1163 /* ResultsFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAD831BA9B49700EE1163 /* ResultsFilters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +108,14 @@
 		9A4B96411BA834DE00EB32FC /* RestProfession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestProfession.m; path = Model/RestProfession.m; sourceTree = "<group>"; };
 		9A4B96521BA835E000EB32FC /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		9A4B96531BA835E000EB32FC /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		9A60A9171BB172AC0029721C /* GnomesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GnomesCell.h; sourceTree = "<group>"; };
+		9A60A9181BB172AC0029721C /* GnomesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GnomesCell.m; sourceTree = "<group>"; };
+		9A60A91A1BB172EA0029721C /* ResultsFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsFilters.h; sourceTree = "<group>"; };
+		9A60A91B1BB172EA0029721C /* ResultsFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsFilters.m; sourceTree = "<group>"; };
+		9A60A91D1BB172FA0029721C /* OtherFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherFilters.h; sourceTree = "<group>"; };
+		9A60A91E1BB172FA0029721C /* OtherFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherFilters.m; sourceTree = "<group>"; };
+		9A60A9201BB1730D0029721C /* PersonalFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalFilters.h; sourceTree = "<group>"; };
+		9A60A9211BB1730D0029721C /* PersonalFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalFilters.m; sourceTree = "<group>"; };
 		9A79D9E11BB01DEA00565240 /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exit.png; path = Artwork/exit.png; sourceTree = "<group>"; };
 		9A79D9E21BB01DEA00565240 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = filter.png; path = Artwork/filter.png; sourceTree = "<group>"; };
 		9A79D9E31BB01DEA00565240 /* fullfilter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fullfilter.png; path = Artwork/fullfilter.png; sourceTree = "<group>"; };
@@ -126,8 +134,6 @@
 		9ADC0C551BB040F00098AF7F /* ARSPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSPopover.m; sourceTree = "<group>"; };
 		9AF8A3421BA8AE9E00F44F5F /* GnomeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GnomeManager.h; path = Model/GnomeManager.h; sourceTree = "<group>"; };
 		9AF8A3431BA8AE9E00F44F5F /* GnomeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GnomeManager.m; path = Model/GnomeManager.m; sourceTree = "<group>"; };
-		9AF8A3451BA8B4B100F44F5F /* GnomesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GnomesCell.h; sourceTree = "<group>"; };
-		9AF8A3461BA8B4B100F44F5F /* GnomesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GnomesCell.m; sourceTree = "<group>"; };
 		9AFFAD3A1BA948A600EE1163 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+WebCache.h"; path = "SDWebImage/MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		9AFFAD3B1BA948A600EE1163 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKAnnotationView+WebCache.m"; path = "SDWebImage/MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		9AFFAD3C1BA948A600EE1163 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -161,12 +167,6 @@
 		9AFFAD581BA948A600EE1163 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		9AFFAD591BA948A600EE1163 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		9AFFAD5A1BA948A600EE1163 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		9AFFAD771BA9749600EE1163 /* PersonalFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalFilters.h; sourceTree = "<group>"; };
-		9AFFAD781BA9749600EE1163 /* PersonalFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalFilters.m; sourceTree = "<group>"; };
-		9AFFAD7B1BA9953600EE1163 /* OtherFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherFilters.h; sourceTree = "<group>"; };
-		9AFFAD7C1BA9953600EE1163 /* OtherFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherFilters.m; sourceTree = "<group>"; };
-		9AFFAD821BA9B49700EE1163 /* ResultsFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsFilters.h; sourceTree = "<group>"; };
-		9AFFAD831BA9B49700EE1163 /* ResultsFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsFilters.m; sourceTree = "<group>"; };
 		9F50EBB12A68B8D2E768D708 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D3049AEB2636DCE74559DAC6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -325,8 +325,8 @@
 		9A4B964E1BA8354C00EB32FC /* Cell Gnome */ = {
 			isa = PBXGroup;
 			children = (
-				9AF8A3451BA8B4B100F44F5F /* GnomesCell.h */,
-				9AF8A3461BA8B4B100F44F5F /* GnomesCell.m */,
+				9A60A9171BB172AC0029721C /* GnomesCell.h */,
+				9A60A9181BB172AC0029721C /* GnomesCell.m */,
 			);
 			name = "Cell Gnome";
 			sourceTree = "<group>";
@@ -380,8 +380,8 @@
 		9AFFAD761BA9745A00EE1163 /* Personal Filters */ = {
 			isa = PBXGroup;
 			children = (
-				9AFFAD771BA9749600EE1163 /* PersonalFilters.h */,
-				9AFFAD781BA9749600EE1163 /* PersonalFilters.m */,
+				9A60A9201BB1730D0029721C /* PersonalFilters.h */,
+				9A60A9211BB1730D0029721C /* PersonalFilters.m */,
 			);
 			name = "Personal Filters";
 			sourceTree = "<group>";
@@ -389,8 +389,8 @@
 		9AFFAD7A1BA9950D00EE1163 /* Other Filters */ = {
 			isa = PBXGroup;
 			children = (
-				9AFFAD7B1BA9953600EE1163 /* OtherFilters.h */,
-				9AFFAD7C1BA9953600EE1163 /* OtherFilters.m */,
+				9A60A91D1BB172FA0029721C /* OtherFilters.h */,
+				9A60A91E1BB172FA0029721C /* OtherFilters.m */,
 			);
 			name = "Other Filters";
 			sourceTree = "<group>";
@@ -398,8 +398,8 @@
 		9AFFAD7E1BA9B41A00EE1163 /* Results Filters */ = {
 			isa = PBXGroup;
 			children = (
-				9AFFAD821BA9B49700EE1163 /* ResultsFilters.h */,
-				9AFFAD831BA9B49700EE1163 /* ResultsFilters.m */,
+				9A60A91A1BB172EA0029721C /* ResultsFilters.h */,
+				9A60A91B1BB172EA0029721C /* ResultsFilters.m */,
 			);
 			name = "Results Filters";
 			sourceTree = "<group>";
@@ -575,7 +575,6 @@
 				9A79D9FA1BB01E5B00565240 /* MBProgressHUD.m in Sources */,
 				9A79D9F71BB01E4F00565240 /* NSString+MD5.m in Sources */,
 				9A4B96421BA834DE00EB32FC /* Friend.m in Sources */,
-				9AF8A3471BA8B4B100F44F5F /* GnomesCell.m in Sources */,
 				9AFFAD651BA948A600EE1163 /* UIImage+GIF.m in Sources */,
 				9AFFAD631BA948A600EE1163 /* SDWebImagePrefetcher.m in Sources */,
 				9A4B95EB1BA8217700EB32FC /* main.m in Sources */,
@@ -584,25 +583,26 @@
 				9AFFAD611BA948A600EE1163 /* SDWebImageDownloaderOperation.m in Sources */,
 				9AFFAD5F1BA948A600EE1163 /* SDWebImageDecoder.m in Sources */,
 				9AFFAD621BA948A600EE1163 /* SDWebImageManager.m in Sources */,
+				9A60A9221BB1730D0029721C /* PersonalFilters.m in Sources */,
 				9A4B96481BA834DE00EB32FC /* RestGnome.m in Sources */,
 				9AFFAD6A1BA948A600EE1163 /* UIView+WebCacheOperation.m in Sources */,
 				9A4B96471BA834DE00EB32FC /* RestFriend.m in Sources */,
 				9A4B96441BA834DE00EB32FC /* Gnome+RestGnome.m in Sources */,
 				9A1E18591BAA95C9008B63D5 /* AppStyles.m in Sources */,
 				9AF8A3441BA8AE9E00F44F5F /* GnomeManager.m in Sources */,
-				9AFFAD791BA9749600EE1163 /* PersonalFilters.m in Sources */,
 				9A4B96431BA834DE00EB32FC /* Friend+RestFriend.m in Sources */,
 				9AFFAD5B1BA948A600EE1163 /* MKAnnotationView+WebCache.m in Sources */,
 				9AFFAD661BA948A600EE1163 /* UIImage+MultiFormat.m in Sources */,
 				9A4B96191BA8271F00EB32FC /* Gnome.m in Sources */,
 				9AFFAD5C1BA948A600EE1163 /* NSData+ImageContentType.m in Sources */,
 				9AFFAD671BA948A600EE1163 /* UIImage+WebP.m in Sources */,
-				9AFFAD7D1BA9953600EE1163 /* OtherFilters.m in Sources */,
+				9A60A91C1BB172EA0029721C /* ResultsFilters.m in Sources */,
 				9A4B96131BA8241D00EB32FC /* Heroes.xcdatamodeld in Sources */,
 				9A4B96461BA834DE00EB32FC /* Profession+RestProfession.m in Sources */,
 				9A4B96451BA834DE00EB32FC /* Profession.m in Sources */,
-				9AFFAD841BA9B49700EE1163 /* ResultsFilters.m in Sources */,
+				9A60A9191BB172AC0029721C /* GnomesCell.m in Sources */,
 				9ADC0C561BB040F00098AF7F /* ARSPopover.m in Sources */,
+				9A60A91F1BB172FA0029721C /* OtherFilters.m in Sources */,
 				9AFFAD5D1BA948A600EE1163 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

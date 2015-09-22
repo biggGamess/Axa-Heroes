@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6CA4A1B-D689-4AB8-AAAA-B713129D4D0D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Axa Heroes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>99800EE4A596A9517148A712576AA12B0F80E9B6</key>
+		<string>https://github.com/biggGamess/Axa-Heroes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Axa Heroes.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>99800EE4A596A9517148A712576AA12B0F80E9B6</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/biggGamess/Axa-Heroes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>99800EE4A596A9517148A712576AA12B0F80E9B6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99800EE4A596A9517148A712576AA12B0F80E9B6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Axa%20Heroes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
