@@ -21,7 +21,7 @@
     [super viewDidLoad];
     [self ScreenStyle];
     [self.navigationItem setHidesBackButton:YES];
-    [self.navigationItem setTitle:@"Results Filters"];
+    [self.navigationItem setTitle:@"Personal Filters"];
     self.navigationItem.rightBarButtonItem=[AppStyles addButton];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
                                    initWithTarget:self

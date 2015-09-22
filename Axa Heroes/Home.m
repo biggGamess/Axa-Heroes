@@ -81,6 +81,7 @@
     //[hud setAnimationType:MBProgressHUDAnimationZoom];
     
     [hud show:YES];
+        
     [[GnomeManager sharedManager] attemptGetGnomesWithSuccess:^(NSArray *gnomes) {
         self.gnomes = [Gnome MR_findAll];
         

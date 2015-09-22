@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		61F3D7B0971B0F05657074E0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3049AEB2636DCE74559DAC6 /* libPods.a */; };
+		9A0754BD1BB1A57E00C71B11 /* propuestaAxa.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9A0754BB1BB1A57E00C71B11 /* propuestaAxa.pdf */; };
+		9A0754BE1BB1A57E00C71B11 /* propuestaAxa.docx in Resources */ = {isa = PBXBuildFile; fileRef = 9A0754BC1BB1A57E00C71B11 /* propuestaAxa.docx */; };
 		9A1E18591BAA95C9008B63D5 /* AppStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1E18581BAA95C9008B63D5 /* AppStyles.m */; };
 		9A4B95EB1BA8217700EB32FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B95EA1BA8217700EB32FC /* main.m */; };
 		9A4B95EE1BA8217700EB32FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B95ED1BA8217700EB32FC /* AppDelegate.m */; };
@@ -74,6 +76,8 @@
 
 /* Begin PBXFileReference section */
 		5D98FF69034151C5D5F5A2F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9A0754BB1BB1A57E00C71B11 /* propuestaAxa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = propuestaAxa.pdf; sourceTree = "<group>"; };
+		9A0754BC1BB1A57E00C71B11 /* propuestaAxa.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = propuestaAxa.docx; sourceTree = "<group>"; };
 		9A1E18571BAA95C9008B63D5 /* AppStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStyles.h; sourceTree = "<group>"; };
 		9A1E18581BAA95C9008B63D5 /* AppStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStyles.m; sourceTree = "<group>"; };
 		9A4B95E51BA8217700EB32FC /* Axa Heroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Axa Heroes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -334,6 +338,8 @@
 		9AF8A3481BA8B74200F44F5F /* ExternalFiles */ = {
 			isa = PBXGroup;
 			children = (
+				9A0754BB1BB1A57E00C71B11 /* propuestaAxa.pdf */,
+				9A0754BC1BB1A57E00C71B11 /* propuestaAxa.docx */,
 				9ADC0C541BB040F00098AF7F /* ARSPopover.h */,
 				9ADC0C551BB040F00098AF7F /* ARSPopover.m */,
 				9A79D9F81BB01E5B00565240 /* MBProgressHUD.h */,
@@ -504,11 +510,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A79D9EE1BB01DEA00565240 /* lock.png in Resources */,
+				9A0754BD1BB1A57E00C71B11 /* propuestaAxa.pdf in Resources */,
 				9A4B95F41BA8217700EB32FC /* Main.storyboard in Resources */,
 				9A79D9ED1BB01DEA00565240 /* houseomplerta.png in Resources */,
 				9A79D9F21BB01DEA00565240 /* personal.png in Resources */,
 				9A79D9EA1BB01DEA00565240 /* exit.png in Resources */,
 				9A79D9F41BB01E3800565240 /* anonymous_user.png in Resources */,
+				9A0754BE1BB1A57E00C71B11 /* propuestaAxa.docx in Resources */,
 				9A79D9EF1BB01DEA00565240 /* otherfilterperfil.png in Resources */,
 				9A79D9EB1BB01DEA00565240 /* filter.png in Resources */,
 				9A79D9F11BB01DEA00565240 /* perfilpersonal.png in Resources */,
